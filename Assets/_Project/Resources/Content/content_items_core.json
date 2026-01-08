@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": "item_short_sword",
+      "name": "短剣",
+      "description": "短い鉄の剣。錆びついているが、まだ使える。",
+      "category": "weapon",
+      "sprite_id": "icon_item_short_sword",
+      "tags": ["item", "weapon", "melee", "metal"],
+      "stackable": false,
+      "max_stack": 1
+    },
+    {
+      "id": "item_bow_basic",
+      "name": "弓",
+      "description": "簡素な木製の弓。木製の矢を射ることができる。",
+      "category": "weapon",
+      "sprite_id": "icon_item_bow_basic",
+      "tags": ["item", "weapon", "ranged", "wood"],
+      "stackable": false,
+      "max_stack": 1
+    },
+    {
+      "id": "item_arrow_wooden",
+      "name": "木製の矢",
+      "description": "木軸に鉄の鏃を付けた矢。火をくぐれば燃え上がる。",
+      "category": "weapon",
+      "sprite_id": "icon_item_arrow_wooden",
+      "tags": ["item", "ammo", "projectile", "wood", "flammable"],
+      "stackable": true,
+      "max_stack": 99
+    },
+    {
+      "id": "item_oil_bottle",
+      "name": "油の入った瓶",
+      "description": "粘つく油が入った小瓶。投げれば地面に油だまりを作れる。",
+      "category": "consumable",
+      "sprite_id": "icon_item_oil_bottle",
+      "tags": ["item", "throwable", "oil"],
+      "stackable": true,
+      "max_stack": 5
+    },
+    {
+      "id": "item_dirt_clod",
+      "name": "土くれ",
+      "description": "そこらの地面からかき集めた土の塊。投げればわずかなダメージや牽制になる。",
+      "category": "weapon",
+      "sprite_id": "icon_item_dirt_clod",
+      "tags": ["item", "throwable", "earth"],
+      "stackable": true,
+      "max_stack": 99
+    }
+  ]
+}

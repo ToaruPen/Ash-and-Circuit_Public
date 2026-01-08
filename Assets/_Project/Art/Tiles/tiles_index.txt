@@ -1,0 +1,48 @@
+# Ash & Circuit（仮） タイルアセット一覧（MVP）
+# このファイルは Unity アセットではなく、開発用の索引テキストです。
+# docs/04_environment_and_tags.md / docs/11_assets.mvp.md のタイルIDと
+# 実際の PNG ファイル名の対応をまとめます。
+# 注意:
+# - この索引のパスは、`Assets/_Project/Art/` からの相対パス。
+# - `Ground`（地面）以外の環境スプライト（壁/木/火/施設/小物）は、現在 `Art/Overlay/**` 配下へ配置している。
+
+[ground]
+# ground_normal は ground_soil を正として扱う（見た目バリエーションは別ID）
+ground_normal = Tiles/Ground/ground_soil_16x24.png
+ground_burnt  = Tiles/Ground/ground_burnt_16x24.png
+ground_water  = Tiles/Ground/ground_water_16x24.png
+ground_oil    = Tiles/Ground/ground_oil_16x24.png
+ground_water_puddle = Tiles/Ground/ground_water_puddle_16x24.png
+ground_oil_puddle   = Tiles/Ground/ground_oil_puddle_16x24.png
+ground_grass = Tiles/Ground/ground_grass_16x24.png
+ground_sand  = Tiles/Ground/ground_sand_16x24.png
+
+[walls]
+wall_stone = Overlay/Walls/wall_stone_16x24.png
+wall_metal = Overlay/Walls/wall_metal_16x24.png
+
+[trees]
+tree_normal  = Overlay/Trees/tree_16x24.png
+tree_burning = Overlay/Trees/burning_tree_16x24.png
+tree_burnt   = Overlay/Trees/tree_burnt_16x24.png
+tree_normal_grounded  = Overlay/Trees/tree_normal_grounded_16x24.png
+tree_burning_grounded = Overlay/Trees/tree_burning_grounded_16x24.png
+tree_burnt_grounded   = Overlay/Trees/tree_burnt_grounded_16x24.png
+
+[fire]
+fire_tile_f1 = Overlay/Fire/fire_tile_16x24_f1.png
+fire_tile_f2 = Overlay/Fire/fire_tile_16x24_f2.png
+fire_tile_f3 = Overlay/Fire/fire_tile_16x24_f3.png
+
+[interior]
+stairs_up   = Overlay/Interior/Stair_up.png
+stairs_down = Overlay/Interior/Stair_down.png
+
+[facility]
+floor_lab    = Overlay/Facility/floor_lab_16x24.png
+wall_lab_metal = Overlay/Facility/wall_lab_metal_16x24.png
+door_lab     = Overlay/Facility/door_lab_16x24.png
+console_lab  = Overlay/Facility/console_lab_16x24.png
+
+[props]
+chest_normal = Overlay/Props/chest_normal_16x24.png

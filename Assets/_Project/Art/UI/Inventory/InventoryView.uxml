@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="InventoryView.uss" />
+  <ui:VisualElement name="inventory-root" class="inventory-root">
+    <ui:VisualElement name="inventory-content" class="inventory-content">
+      <!-- 所持品リスト -->
+      <ui:VisualElement name="inventory-items-container" class="inventory-items-container">
+        <ui:Label text="所持品" class="inventory-title" />
+        <ui:ScrollView name="inventory-items" class="inventory-items" />
+      </ui:VisualElement>
+      <!-- 装備欄（6スロット） -->
+      <ui:VisualElement name="inventory-equipment" class="inventory-equipment">
+        <ui:Label text="装備" class="inventory-title" />
+        <ui:VisualElement name="equipment-slot-head" class="equipment-slot">
+          <ui:Label name="equipment-slot-label-head" class="equipment-slot-label" text="頭: -" />
+        </ui:VisualElement>
+        <ui:VisualElement name="equipment-slot-body" class="equipment-slot">
+          <ui:Label name="equipment-slot-label-body" class="equipment-slot-label" text="胴体: -" />
+        </ui:VisualElement>
+        <ui:VisualElement name="equipment-slot-mainhand" class="equipment-slot">
+          <ui:Label name="equipment-slot-label-mainhand" class="equipment-slot-label" text="メインハンド: -" />
+        </ui:VisualElement>
+        <ui:VisualElement name="equipment-slot-offhand" class="equipment-slot">
+          <ui:Label name="equipment-slot-label-offhand" class="equipment-slot-label" text="サブハンド: -" />
+        </ui:VisualElement>
+        <ui:VisualElement name="equipment-slot-back" class="equipment-slot">
+          <ui:Label name="equipment-slot-label-back" class="equipment-slot-label" text="背中: -" />
+        </ui:VisualElement>
+        <ui:VisualElement name="equipment-slot-feet" class="equipment-slot">
+          <ui:Label name="equipment-slot-label-feet" class="equipment-slot-label" text="足: -" />
+        </ui:VisualElement>
+      </ui:VisualElement>
+    </ui:VisualElement>
+  </ui:VisualElement>
+</ui:UXML>

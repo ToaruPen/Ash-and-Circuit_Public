@@ -1,0 +1,26 @@
+/* ログUI: 右サイドバー下部に配置（ミニマップの下） */
+
+.log-root {
+    position: absolute;
+    right: 8px;
+    top: 204px; /* 上部バー(36) + サイドバー余白(8) + ミニマップ(~152) + 余白(8) */
+    bottom: 8px;
+    width: 280px;
+    padding: 6px 8px;
+    background-color: rgba(10, 10, 10, 0.85);
+    border-width: 1px;
+    border-color: rgba(200, 180, 120, 0.4);
+}
+
+.log-scroll-view {
+    flex-grow: 1;
+}
+
+.log-entry {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-bottom: 2px;
+    white-space: normal;
+    -unity-text-align: upper-left;
+}
+

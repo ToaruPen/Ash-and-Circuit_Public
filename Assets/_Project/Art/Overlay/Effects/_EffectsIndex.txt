@@ -1,0 +1,16 @@
+Ash & Circuit（仮） MVP エフェクトインデックス（簡易メモ）
+
+解像度: すべて 16×24 px / 透過 PNG（ゲームで使用する最終成果物）
+
+矢・投射物
+- arrow_normal  : Effects/Projectiles/arrow_normal_16x24.png
+- arrow_flaming : Effects/Projectiles/arrow_flaming_16x24.png
+
+ヒットエフェクト（近接・遠隔共通）
+- hit_effect frame1 : Effects/Hits/hit_effect_16x24_f1.png
+- hit_effect frame2 : Effects/Hits/hit_effect_16x24_f2.png
+- hit_effect frame3 : Effects/Hits/hit_effect_16x24_f3.png
+
+補足:
+- PixelLab からの生出力（32×48 px）は同じフォルダ内の `*_32x48.png` として残している。
+  ゲーム本編で参照するのは 16×24 版のみとし、インポート設定は Unity 上で行う。

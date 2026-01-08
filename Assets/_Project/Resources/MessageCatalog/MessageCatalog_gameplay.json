@@ -1,0 +1,220 @@
+{
+  "entries": [
+    {
+      "id": "TurnStart",
+      "text": "―― ターン {0} ――",
+      "category": "turn",
+      "notes": "ターン開始ログ。{0}=ターン番号"
+    },
+    {
+      "id": "TurnEnd",
+      "text": "―― ターン {0} 終了 ――",
+      "category": "turn",
+      "notes": "ターン終了ログ。{0}=ターン番号"
+    },
+    {
+      "id": "RuleP01ArrowIgnited",
+      "text": "矢は炎をくぐり、燃え上がった。（RULE P-01）",
+      "category": "rule",
+      "notes": "RULE P-01: 矢が炎タイルを通過したときのログ"
+    },
+    {
+      "id": "RuleE01TreeIgnited",
+      "text": "木が炎上した。（RULE E-01）",
+      "category": "rule",
+      "notes": "RULE E-01: 木が燃え始めたときのログ"
+    },
+    {
+      "id": "RuleE01TreeBurnedOut",
+      "text": "木は燃え尽きた。（RULE E-01）",
+      "category": "rule",
+      "notes": "RULE E-01: 木が燃え尽きたときのログ"
+    },
+    {
+      "id": "MoveOutOfBounds",
+      "text": "プレイヤーはマップ外へは移動できない。({0}, {1}) -> ({2}, {3})",
+      "category": "action",
+      "notes": "移動先がマップ外だったときのログ"
+    },
+    {
+      "id": "MoveBlockedByWall",
+      "text": "プレイヤーは壁に阻まれた。({0}, {1}) -> ({2}, {3})",
+      "category": "action",
+      "notes": "移動先が通行不可タイル（壁など）だったときのログ"
+    },
+    {
+      "id": "MoveSucceeded",
+      "text": "プレイヤーは ({0}, {1}) へ移動した。",
+      "category": "action",
+      "notes": "移動成功時のログ"
+    },
+    {
+      "id": "MeleePlayerHitEnemyDamage",
+      "text": "あなたは敵に {0} ダメージを与えた。",
+      "category": "melee",
+      "notes": "近接攻撃: プレイヤーが敵にダメージを与えた。{0}=ダメージ"
+    },
+    {
+      "id": "MeleeEnemyDefeated",
+      "text": "敵を倒した。",
+      "category": "melee",
+      "notes": "近接攻撃: 敵を倒したときのログ"
+    },
+    {
+      "id": "MeleeEnemyHitPlayerDamage",
+      "text": "敵はあなたに {0} ダメージを与えた。",
+      "category": "melee",
+      "notes": "近接攻撃: 敵がプレイヤーにダメージを与えた。{0}=ダメージ"
+    },
+    {
+      "id": "MeleePlayerDefeated",
+      "text": "あなたは倒れた。この run は終わった。",
+      "category": "melee",
+      "notes": "近接攻撃: プレイヤーが倒れたときのログ"
+    },
+    {
+      "id": "MeleeHitGenericDamage",
+      "text": "攻撃が命中し、{0} ダメージを与えた。",
+      "category": "melee",
+      "notes": "近接攻撃: 汎用ログ（プレイヤー/敵以外の組み合わせ想定）。{0}=ダメージ"
+    },
+    {
+      "id": "BurningDamagePlayer",
+      "text": "炎で身体が焼ける。",
+      "category": "status",
+      "notes": "状態異常: burning によるダメージがプレイヤーに入ったときのログ"
+    },
+    {
+      "id": "BurningDamageEnemy",
+      "text": "敵は燃えさかる炎にもがいている。",
+      "category": "status",
+      "notes": "状態異常: burning によるダメージが敵に入ったときのログ"
+    },
+    {
+      "id": "PickupNoItem",
+      "text": "ここから拾えるものはなさそうだ。",
+      "category": "pickup",
+      "notes": "足元に拾えるアイテムが存在しないときのログ"
+    },
+    {
+      "id": "PickupInventoryFull",
+      "text": "これ以上は持てない。",
+      "category": "pickup",
+      "notes": "インベントリが満杯で拾えないときのログ"
+    },
+    {
+      "id": "PickupDirtFromOilGround",
+      "text": "あなたは油の染みた土を一握りすくい取り、ポケットに入れた。",
+      "category": "pickup",
+      "notes": "油だまりタイル上で土くれを拾ったときのフレーバーログ"
+    },
+    {
+      "id": "PickupDirtGeneric",
+      "text": "あなたは一握りの湿った土をポケットに入れた。",
+      "category": "pickup",
+      "notes": "通常の地面で土くれを拾ったときのフレーバーログ"
+    },
+    {
+      "id": "PickupGenericItem",
+      "text": "あなたは「{0}」を拾った。",
+      "category": "pickup",
+      "notes": "一般的なアイテム取得ログ。{0}=DisplayName"
+    },
+    {
+      "id": "ThrowMissingItem",
+      "text": "あなたは「{0}」を持っていない。",
+      "category": "throw",
+      "notes": "インベントリに対象アイテムがないときのログ"
+    },
+    {
+      "id": "ThrowTargetIsSelf",
+      "text": "足元へは投げられない。",
+      "category": "throw",
+      "notes": "プレイヤー自身の足元タイルを投擲ターゲットにしたときのログ"
+    },
+    {
+      "id": "ThrowTooFar",
+      "text": "そこまでは届かなさそうだ。",
+      "category": "throw",
+      "notes": "投擲距離が許容量を超えているときのログ"
+    },
+    {
+      "id": "ThrowWoodenArrowFlavor",
+      "text": "あなたは木製の矢を投げた。弓で放つよりも頼りない軌道だ。",
+      "category": "throw",
+      "notes": "木製矢投擲時のフレーバーログ"
+    },
+    {
+      "id": "ThrowOilBottleLost",
+      "text": "油の入った瓶は遠くへ飛んでいき、行方が分からなくなった。",
+      "category": "throw",
+      "notes": "油瓶をマップ外に投げた場合など、着弾タイルが無効だったときのログ"
+    },
+    {
+      "id": "ThrowOilBottleCreatePuddle",
+      "text": "油の入った瓶が割れ、地面に油だまりが広がった。",
+      "category": "throw",
+      "notes": "油瓶が地面に着弾し、油だまりタイルを生成したときのログ"
+    },
+    {
+      "id": "ThrowOilBottleNoSpread",
+      "text": "油の入った瓶は固いものにぶつかって砕けたが、油はうまく広がらなかった。",
+      "category": "throw",
+      "notes": "油瓶が油を広げられないタイルに着弾したときのログ"
+    },
+    {
+      "id": "ThrowDirtClodFlavor",
+      "text": "あなたは土くれを投げつけた。土の塊はぱらぱらと崩れた。",
+      "category": "throw",
+      "notes": "土くれ投擲時のフレーバーログ"
+    },
+    {
+      "id": "ThrowGenericNoEffect",
+      "text": "「{0}」は今のところ投げても特別な効果はなさそうだ。",
+      "category": "throw",
+      "notes": "特別な投擲効果を持たないアイテムを投げたときのログ"
+    },
+    {
+      "id": "ShootDirectional",
+      "text": "あなたは{0}に矢を放った。",
+      "category": "shoot",
+      "notes": "方向付き射撃時のログ。{0}=方向名"
+    },
+    {
+      "id": "ShootGeneric",
+      "text": "あなたは矢を放った。",
+      "category": "shoot",
+      "notes": "方向名が特定できない場合の射撃ログ"
+    },
+    {
+      "id": "ShootBlockedImmediately",
+      "text": "矢はすぐ目の前の障害物に阻まれた。",
+      "category": "shoot",
+      "notes": "弾道候補列が空、またはすぐ近くでブロックされたときのログ"
+    },
+    {
+      "id": "ShootHitSurface",
+      "text": "矢は{0}に突き刺さった。",
+      "category": "shoot",
+      "notes": "何かに命中したときのログ。{0}=命中対象の表現"
+    },
+    {
+      "id": "ProjectileHitEnemy",
+      "text": "{0}に命中した。",
+      "category": "shoot",
+      "notes": "投射物が敵に命中したときのログ。{0}=敵名"
+    },
+    {
+      "id": "ShootFellToGround",
+      "text": "矢は地面に落ちた。",
+      "category": "shoot",
+      "notes": "命中せずに着弾タイルまで飛んだときのログ"
+    },
+    {
+      "id": "ThrowProjectileDroppedAtFeet",
+      "text": "投げたものはすぐ足元に落ちてしまった。",
+      "category": "throw",
+      "notes": "投擲 Projectile がほとんど飛ばなかったときのログ"
+    }
+  ]
+}

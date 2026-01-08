@@ -1,0 +1,184 @@
+{
+  "entries": [
+    {
+      "id": "UiItemExamined",
+      "text": "[{0}] {1}",
+      "category": "ui",
+      "notes": "インベントリのExamine（調べる）ログ。{0}=DisplayName, {1}=Description"
+    },
+    {
+      "id": "UiTileMenuPickupWithName",
+      "text": "拾う: {0}",
+      "category": "ui",
+      "notes": "タイルの右クリックメニュー: 拾う。{0}=アイテム名"
+    },
+    {
+      "id": "UiTileMenuExamine",
+      "text": "調べる",
+      "category": "ui",
+      "notes": "タイルの右クリックメニュー: 調べる"
+    },
+    {
+      "id": "UiTileDescGroundNormal",
+      "text": "普通の地面。土くれが拾えそうだ。",
+      "category": "ui",
+      "notes": "タイル説明: GroundNormal"
+    },
+    {
+      "id": "UiTileDescGroundBurnt",
+      "text": "焼けた地面。まだ温かい。",
+      "category": "ui",
+      "notes": "タイル説明: GroundBurnt"
+    },
+    {
+      "id": "UiTileDescGroundOil",
+      "text": "油が染みた地面。火をつけたら燃え広がりそうだ。",
+      "category": "ui",
+      "notes": "タイル説明: GroundOil"
+    },
+    {
+      "id": "UiTileDescGroundWater",
+      "text": "水たまり。",
+      "category": "ui",
+      "notes": "タイル説明: GroundWater"
+    },
+    {
+      "id": "UiTileDescTreeNormal",
+      "text": "木。燃えやすそうだ。",
+      "category": "ui",
+      "notes": "タイル説明: TreeNormal"
+    },
+    {
+      "id": "UiTileDescTreeBurning",
+      "text": "燃えている木。近づくと危険だ。",
+      "category": "ui",
+      "notes": "タイル説明: TreeBurning"
+    },
+    {
+      "id": "UiTileDescTreeBurnt",
+      "text": "焼け焦げた木の残骸。",
+      "category": "ui",
+      "notes": "タイル説明: TreeBurnt"
+    },
+    {
+      "id": "UiTileDescWallStone",
+      "text": "石の壁。通れない。",
+      "category": "ui",
+      "notes": "タイル説明: WallStone"
+    },
+    {
+      "id": "UiTileDescWallMetal",
+      "text": "金属の壁。頑丈そうだ。",
+      "category": "ui",
+      "notes": "タイル説明: WallMetal"
+    },
+    {
+      "id": "UiTileDescFire",
+      "text": "炎。触れると火傷する。",
+      "category": "ui",
+      "notes": "タイル説明: FireTile"
+    },
+    {
+      "id": "UiTileDescUnknown",
+      "text": "よく分からない何か。",
+      "category": "ui",
+      "notes": "タイル説明: 未定義"
+    },
+    {
+      "id": "UiInventoryMenuThrow",
+      "text": "投げる",
+      "category": "ui",
+      "notes": "インベントリ右クリックメニュー: 投げる"
+    },
+    {
+      "id": "UiInventoryMenuEquipWithSlot",
+      "text": "装備する ({0})",
+      "category": "ui",
+      "notes": "インベントリ右クリックメニュー: 装備する。{0}=装備スロット名"
+    },
+    {
+      "id": "UiInventoryMenuDrop",
+      "text": "捨てる",
+      "category": "ui",
+      "notes": "インベントリ右クリックメニュー: 捨てる"
+    },
+    {
+      "id": "UiInventoryMenuExamine",
+      "text": "調べる",
+      "category": "ui",
+      "notes": "インベントリ右クリックメニュー: 調べる"
+    },
+    {
+      "id": "UiInventoryMenuUnequip",
+      "text": "外す",
+      "category": "ui",
+      "notes": "装備スロット右クリックメニュー: 外す"
+    },
+    {
+      "id": "UiHudHpValue",
+      "text": "{0}/{1}",
+      "category": "ui",
+      "notes": "HUD: HP値。{0}=現在HP, {1}=最大HP"
+    },
+    {
+      "id": "UiHudXpValue",
+      "text": "{0}/{1}",
+      "category": "ui",
+      "notes": "HUD: XP値。MVP仮表示。{0}=現在XP, {1}=次Lv"
+    },
+    {
+      "id": "UiHudStatusPlaceholder",
+      "text": "-",
+      "category": "ui",
+      "notes": "HUD: ステータス仮表示"
+    },
+    {
+      "id": "UiHudHungerPlaceholder",
+      "text": "空腹",
+      "category": "ui",
+      "notes": "HUD: 空腹仮表示"
+    },
+    {
+      "id": "UiHudThirstPlaceholder",
+      "text": "乾き",
+      "category": "ui",
+      "notes": "HUD: 乾き仮表示"
+    },
+    {
+      "id": "UiHudLevelValue",
+      "text": "Lv.{0}",
+      "category": "ui",
+      "notes": "HUD: レベル表示。MVP仮表示。{0}=レベル"
+    },
+    {
+      "id": "UiHudDefenseValue",
+      "text": "🛡{0}",
+      "category": "ui",
+      "notes": "HUD: 防御表示。MVP仮表示。{0}=防御値"
+    },
+    {
+      "id": "UiHudEvasionValue",
+      "text": "回避{0}",
+      "category": "ui",
+      "notes": "HUD: 回避表示。MVP仮表示。{0}=回避値"
+    },
+    {
+      "id": "UiHudTimeTurn",
+      "text": "Turn {0}",
+      "category": "ui",
+      "notes": "HUD: ターン表示。{0}=表示ターン（1始まり）"
+    },
+    {
+      "id": "UiHudTimeTurnUnknown",
+      "text": "Turn -",
+      "category": "ui",
+      "notes": "HUD: ターン不明時の仮表示"
+    },
+    {
+      "id": "UiHudLocationDefault",
+      "text": "焼けた森",
+      "category": "ui",
+      "notes": "HUD: 場所名のMVP仮表示"
+    }
+  ]
+}

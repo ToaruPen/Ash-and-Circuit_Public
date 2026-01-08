@@ -1,0 +1,7 @@
+﻿<Solution>
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Core.EditModeTests.csproj" />
+  <Project Path="UiToolkit.PlayModeTests.csproj" />
+  <Project Path="AshNCircuit.Core.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+</Solution>

@@ -1,0 +1,30 @@
+/* ツールチップ: アイテム情報表示 */
+
+.tooltip-container {
+    position: absolute;
+    min-width: 160px;
+    max-width: 280px;
+    padding: 8px 12px;
+    background-color: rgba(10, 10, 10, 0.95);
+    border-width: 1px;
+    border-color: rgba(200, 180, 120, 0.6);
+}
+
+.tooltip-title {
+    color: rgb(255, 240, 200);
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-bottom: 4px;
+}
+
+.tooltip-tags {
+    color: rgb(150, 180, 200);
+    font-size: 11px;
+    margin-bottom: 6px;
+}
+
+.tooltip-description {
+    color: rgb(200, 200, 200);
+    font-size: 12px;
+    white-space: normal;
+}

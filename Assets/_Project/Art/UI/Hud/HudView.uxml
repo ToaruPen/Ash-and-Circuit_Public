@@ -1,0 +1,58 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="HudView.uss" />
+
+  <!-- 上部バー -->
+  <ui:VisualElement name="hud-top-bar" class="hud-top-bar">
+    <!-- 左側: ステータス系 -->
+    <ui:VisualElement name="hud-top-left" class="hud-top-left">
+      <ui:Label name="hud-status-label" class="hud-status-label" text="[状態]" />
+      <ui:Label name="hud-hunger-label" class="hud-hunger-label" text="空腹" />
+      <ui:Label name="hud-thirst-label" class="hud-thirst-label" text="乾き" />
+      <ui:Label name="hud-level-label" class="hud-level-label" text="Lv.1" />
+    </ui:VisualElement>
+
+    <!-- 中央: 装備ステータス -->
+    <ui:VisualElement name="hud-top-center" class="hud-top-center">
+      <ui:Label name="hud-defense-label" class="hud-defense-label" text="🛡0" />
+      <ui:Label name="hud-evasion-label" class="hud-evasion-label" text="回避0" />
+    </ui:VisualElement>
+
+    <!-- 右側: 時間・場所 -->
+    <ui:VisualElement name="hud-top-right" class="hud-top-right">
+      <ui:Label name="hud-time-label" class="hud-time-label" text="朝" />
+      <ui:Label name="hud-location-label" class="hud-location-label" text="焼けた森" />
+    </ui:VisualElement>
+  </ui:VisualElement>
+
+  <!-- 左上: HP/XPエリア -->
+  <ui:VisualElement name="hud-stats" class="hud-stats">
+    <!-- HPバー -->
+    <ui:VisualElement name="hud-hp-row" class="hud-stat-row">
+      <ui:Label name="hud-hp-text" class="hud-stat-text" text="HP" />
+      <ui:VisualElement name="hud-hp-bar-bg" class="hud-bar-bg">
+        <ui:VisualElement name="hud-hp-bar-fill" class="hud-bar-fill hud-bar-fill--hp" />
+      </ui:VisualElement>
+      <ui:Label name="hud-hp-value" class="hud-stat-value" text="20/20" />
+    </ui:VisualElement>
+
+    <!-- XPバー -->
+    <ui:VisualElement name="hud-xp-row" class="hud-stat-row">
+      <ui:Label name="hud-xp-text" class="hud-stat-text" text="XP" />
+      <ui:VisualElement name="hud-xp-bar-bg" class="hud-bar-bg">
+        <ui:VisualElement name="hud-xp-bar-fill" class="hud-bar-fill hud-bar-fill--xp" />
+      </ui:VisualElement>
+      <ui:Label name="hud-xp-value" class="hud-stat-value" text="0/100" />
+    </ui:VisualElement>
+  </ui:VisualElement>
+
+  <!-- 右サイドバー: ミニマップ枠 -->
+  <ui:VisualElement name="hud-sidebar" class="hud-sidebar">
+    <ui:VisualElement name="hud-minimap" class="hud-minimap">
+      <ui:Label name="hud-minimap-title" class="hud-minimap-title" text="MAP" />
+      <ui:VisualElement name="hud-minimap-content" class="hud-minimap-content">
+        <!-- ミニマップ描画領域（将来実装） -->
+      </ui:VisualElement>
+    </ui:VisualElement>
+  </ui:VisualElement>
+
+</ui:UXML>

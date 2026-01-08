@@ -1,0 +1,93 @@
+/* インベントリUI: Caves of Qud スタイル */
+
+.inventory-root {
+    position: absolute;
+    width: 520px;
+    height: 360px;
+    left: 380px;
+    top: 140px;
+    padding: 8px;
+    background-color: rgba(10, 10, 10, 0.9);
+    border-width: 1px;
+    border-color: rgba(200, 180, 120, 0.5);
+}
+
+.inventory-content {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.inventory-items-container {
+    flex-grow: 2;
+    margin-right: 12px;
+}
+
+.inventory-equipment {
+    flex-grow: 1;
+    min-width: 160px;
+}
+
+.inventory-title {
+    color: rgb(255, 240, 200);
+    -unity-font-style: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+    border-bottom-width: 1px;
+    border-color: rgba(200, 180, 120, 0.3);
+    padding-bottom: 4px;
+}
+
+.inventory-items {
+    flex-grow: 1;
+}
+
+.inventory-item-row {
+    flex-direction: row;
+    padding: 2px 4px;
+    margin-bottom: 1px;
+}
+
+.inventory-item-row--hover {
+    background-color: rgba(80, 80, 120, 0.5);
+}
+
+.inventory-item-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.inventory-item-label {
+    color: rgb(220, 220, 220);
+    font-size: 12px;
+}
+
+/* 装備スロット */
+.equipment-slot {
+    border-width: 1px;
+    border-color: rgba(200, 180, 120, 0.4);
+    margin-bottom: 4px;
+    padding: 4px 6px;
+    background-color: rgba(40, 40, 50, 0.5);
+}
+
+.equipment-slot--hover {
+    background-color: rgba(60, 60, 80, 0.6);
+    border-color: rgba(200, 180, 120, 0.7);
+}
+
+.equipment-slot-label {
+    color: rgb(200, 200, 200);
+    font-size: 11px;
+}
+
+.equipment-slot--equipped .equipment-slot-label {
+    color: rgb(255, 240, 200);
+}

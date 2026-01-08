@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "id": "ThrowModeBegin",
+      "text": "{0}を投げる: 目標を左クリックで指定。右クリックまたはEscでキャンセル。",
+      "category": "guide",
+      "notes": "インベントリから「投げる」を選んだ直後のガイドメッセージ。{0}=アイテム名"
+    },
+    {
+      "id": "ThrowModeCanceled",
+      "text": "投擲をキャンセルした。",
+      "category": "guide",
+      "notes": "投擲モードをキャンセルしたときのメッセージ"
+    },
+    {
+      "id": "ContextPickupNotFromThere",
+      "text": "そこからは拾えない。足元に移動する必要がある。",
+      "category": "context",
+      "notes": "足元以外のタイルから拾おうとしたときのコンテキストメニュー用メッセージ"
+    },
+    {
+      "id": "ContextExamineTile",
+      "text": "({0}, {1}): {2}",
+      "category": "context",
+      "notes": "「調べる」メニュー選択時のログ。{0},{1}=座標,{2}=タイル説明"
+    },
+    {
+      "id": "PickupGuideAtFeet",
+      "text": "ここには{0}がある。[G]で拾える。",
+      "category": "guide",
+      "notes": "足元に拾えるアイテムがあるときの一度きりガイドメッセージ"
+    }
+  ]
+}

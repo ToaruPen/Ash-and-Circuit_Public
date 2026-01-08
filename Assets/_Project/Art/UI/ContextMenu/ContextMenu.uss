@@ -1,0 +1,48 @@
+/* コンテキストメニュー: Caves of Qud スタイルのテキストリスト形式 */
+
+.context-menu-backdrop {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* 背景は透明だがクリック可能 */
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.context-menu-container {
+    position: absolute;
+    min-width: 120px;
+    max-width: 280px;
+    padding: 4px 0;
+    background-color: rgba(20, 20, 20, 0.95);
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.context-menu-item {
+    padding: 4px 12px;
+    cursor: url("project://database/Assets/_Project/Art/UI/Cursor/tile_0027.png") 0 0;
+}
+
+.context-menu-item--hover {
+    background-color: rgba(80, 80, 120, 0.8);
+}
+
+.context-menu-item--disabled {
+    opacity: 0.5;
+}
+
+.context-menu-item-label {
+    color: rgb(220, 220, 220);
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.context-menu-item--hover .context-menu-item-label {
+    color: rgb(255, 255, 255);
+}
+
+.context-menu-item--disabled .context-menu-item-label {
+    color: rgb(128, 128, 128);
+}

@@ -1,0 +1,13 @@
+# Ash & Circuit（仮） エフェクトアセット一覧（MVP）
+# docs/11_assets.mvp.md の「エフェクト」節と対応するスプライトファイル。
+
+[arrows]
+# arrow_normal: マップ上で右向き（水平方向）に飛んでいる通常の矢。細長いシルエットで、タイル中央付近を横切る。
+arrow_normal  = Effects/Projectiles/arrow_normal_16x24.png
+# arrow_flaming: 上記通常矢の先端に小さな炎と少量の火の粉が付いた矢。RULE P-01（矢×火）で燃えた状態などを表現。
+arrow_flaming = Effects/Projectiles/arrow_flaming_16x24.png
+
+[hit_effect]
+hit_effect_f1 = Effects/Hits/hit_effect_16x24_f1.png
+hit_effect_f2 = Effects/Hits/hit_effect_16x24_f2.png
+hit_effect_f3 = Effects/Hits/hit_effect_16x24_f3.png

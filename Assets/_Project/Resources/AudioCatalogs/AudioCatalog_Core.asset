@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7449e6beaa445fcbd080ae10d437f6d, type: 3}
+  m_Name: AudioCatalog_Core
+  m_EditorClassIdentifier: 
+  Entries:
+  - AudioId: sfx_ui_confirm
+    AudioClip: {fileID: 8300000, guid: d5cefe45615344592937a8e18a196745, type: 3}
+  - AudioId: sfx_ui_cancel
+    AudioClip: {fileID: 8300000, guid: 9755d4fa5aefd4851aca0406c2b803e9, type: 3}
+  - AudioId: sfx_ui_contextmenu
+    AudioClip: {fileID: 8300000, guid: 79e95439f1bed4bdca14df93df05f187, type: 3}
+  - AudioId: sfx_ui_inspect
+    AudioClip: {fileID: 8300000, guid: 4a6eeb92896914ff4a319be009192eac, type: 3}
+  - AudioId: sfx_ui_pickup
+    AudioClip: {fileID: 8300000, guid: eab2d792a4d1444018899fd4264e7943, type: 3}
+  - AudioId: sfx_ui_drop
+    AudioClip: {fileID: 8300000, guid: 2e433d1d9e6cd4e1e94740ed21754439, type: 3}
+  - AudioId: sfx_ui_inventory_open
+    AudioClip: {fileID: 8300000, guid: 88b3742ecdea84aa59e890a88d71ca6f, type: 3}
+  - AudioId: sfx_ui_inventory_close
+    AudioClip: {fileID: 8300000, guid: 2dc75480bc014df6b82fa87b79632c6b, type: 3}
+  - AudioId: sfx_ui_item_hover
+    AudioClip: {fileID: 8300000, guid: 2765391d775a74efcb3b3ebafcc61567, type: 3}
+  - AudioId: sfx_combat_shoot
+    AudioClip: {fileID: 8300000, guid: 55a8188afbcad45f9b6ae6d85dabd3cc, type: 3}
+  - AudioId: sfx_combat_projectile_hit
+    AudioClip: {fileID: 8300000, guid: 6d5832d32af24f9e9b79bde6ea0f05d7, type: 3}
+  - AudioId: sfx_combat_kill
+    AudioClip: {fileID: 8300000, guid: 8a8ba7cef307a4241a51a12b96e0d6ff, type: 3}
+  - AudioId: sfx_combat_melee_hit
+    AudioClip: {fileID: 8300000, guid: f755af6ce153b453d9225923fa04665e, type: 3}
+  - AudioId: sfx_combat_player_hit
+    AudioClip: {fileID: 8300000, guid: 542e3e13d92874a7c9c30f07bf76b78b, type: 3}

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="LogView.uss" />
+  <ui:VisualElement name="log-root" class="log-root">
+    <ui:ScrollView name="log-scroll-view" class="log-scroll-view" />
+  </ui:VisualElement>
+</ui:UXML>
+

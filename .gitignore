@@ -1,0 +1,28 @@
+# Unity
+Library/
+Temp/
+Logs/
+UserSettings/
+TestResults/
+
+# OS
+.DS_Store
+
+# Builds
+Build/
+Builds/
+
+# JetBrains
+.idea/
+
+# VS
+.vscode/
+
+# Rider
+*.sln.iml
+
+# Crash logs
+sysinfo.txt
+
+# Addressables (if generated locally)
+ServerData/

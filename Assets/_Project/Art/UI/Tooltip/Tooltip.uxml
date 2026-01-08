@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="Tooltip.uss" />
+  <ui:VisualElement name="tooltip-container" class="tooltip-container">
+    <ui:Label name="tooltip-title" class="tooltip-title" text="アイテム名" />
+    <ui:Label name="tooltip-tags" class="tooltip-tags" text="[タグ]" />
+    <ui:Label name="tooltip-description" class="tooltip-description" text="説明文がここに表示されます。" />
+  </ui:VisualElement>
+</ui:UXML>

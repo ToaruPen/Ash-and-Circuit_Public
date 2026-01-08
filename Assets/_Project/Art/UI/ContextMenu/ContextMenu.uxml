@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="ContextMenu.uss" />
+  <!-- 背景オーバーレイ: クリックでメニューを閉じる -->
+  <ui:VisualElement name="context-menu-backdrop" class="context-menu-backdrop">
+    <!-- メニュー本体 -->
+    <ui:VisualElement name="context-menu-container" class="context-menu-container">
+      <!-- 項目は ContextMenuView.cs から動的に追加される -->
+    </ui:VisualElement>
+  </ui:VisualElement>
+</ui:UXML>

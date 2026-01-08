@@ -1,0 +1,38 @@
+{
+  "actors": [
+    {
+      "id": "actor_forest_wolf",
+      "display_name": "狼",
+      "sprite_id": "sprite_enemy_wolf",
+      "kind": "enemy",
+      "faction_id": "faction_forest_heresy",
+      "tags": ["beast", "enemy"],
+      "base_stats": {
+        "hp": 12,
+        "attack": 3,
+        "defense": 1,
+        "speed": 100
+      },
+      "ai_profile_id": "ai_forest_wolf_basic",
+      "initial_inventory": [],
+      "notes": "周辺を徘徊する獣系の敵。シンプルな近接アタッカー。"
+    },
+    {
+      "id": "actor_goblin",
+      "display_name": "ゴブリン",
+      "sprite_id": "sprite_enemy_goblin",
+      "kind": "enemy",
+      "faction_id": "faction_forest_heresy",
+      "tags": ["humanoid", "enemy"],
+      "base_stats": {
+        "hp": 8,
+        "attack": 2,
+        "defense": 0,
+        "speed": 100
+      },
+      "ai_profile_id": "ai_goblin_basic",
+      "initial_inventory": [],
+      "notes": "森に棲む小柄な人型の敵。狼より弱いが群れで現れる。"
+    }
+  ]
+}

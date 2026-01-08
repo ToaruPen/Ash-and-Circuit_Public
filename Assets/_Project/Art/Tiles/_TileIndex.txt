@@ -1,0 +1,31 @@
+Ash & Circuit（仮） MVP タイルインデックス（簡易メモ）
+
+解像度: すべて 16×24 px / 透過 PNG（ゲームで使用する最終成果物）
+
+注意:
+- このファイルは簡易メモ。正確な対応表は `Tiles/tiles_index.txt` を参照すること。
+- `Ground`（地面）以外の環境スプライト（壁/木/火/施設/小物）は、現在 `Art/Overlay/**` 配下へ配置している。
+
+地面タイル（docs/04_environment_and_tags.md 2.1節）
+- ground_normal : Tiles/Ground/ground_soil_16x24.png
+- ground_burnt  : Tiles/Ground/ground_burnt_16x24.png
+- ground_water  : Tiles/Ground/ground_water_16x24.png
+- ground_oil    : Tiles/Ground/ground_oil_16x24.png
+
+壁・構造物（docs/04_environment_and_tags.md 2.2節）
+- wall_stone : Overlay/Walls/wall_stone_16x24.png
+- wall_metal : Overlay/Walls/wall_metal_16x24.png
+
+木（docs/04_environment_and_tags.md 2.3節）
+- tree_normal   : Overlay/Trees/tree_16x24.png
+- tree_burning  : Overlay/Trees/burning_tree_16x24.png
+- tree_burnt    : Overlay/Trees/tree_burnt_16x24.png
+
+火タイル（docs/04_environment_and_tags.md 2.4節）
+- fire_tile (anim frame1) : Overlay/Fire/fire_tile_16x24_f1.png
+- fire_tile (anim frame2) : Overlay/Fire/fire_tile_16x24_f2.png
+- fire_tile (anim frame3) : Overlay/Fire/fire_tile_16x24_f3.png
+
+補足:
+- PixelLab からの生出力（32×48 px）は同じフォルダ内の `*_32x48.png` として残している。
+  ゲーム本編で参照するのは 16×24 版のみとし、インポート設定は Unity 上で行う。

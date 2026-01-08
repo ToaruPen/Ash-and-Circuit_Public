@@ -1,0 +1,12 @@
+{
+  "props": [
+    {
+      "id": "chest",
+      "display_name": "宝箱",
+      "sprite_id": "icon_item_dirt_clod",
+      "blocks_movement": true,
+      "blocks_los": false,
+      "blocks_projectiles": true
+    }
+  ]
+}
